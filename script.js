@@ -1,11 +1,11 @@
 //Define Variables
 var date = moment();
 var nowDateID = date.format("YYYY-MM-DD");
-var headerDate = date.format("dddd MMM DD YYYY");
+var todaysDate = date.format("dddd MMM DD YYYY");
 
 //Current Date
 
-document.getElementById("currentDay").innerHTML = headerDate;
+document.getElementById("currentDay").innerHTML = todaysDate;
 
 
 //Time blocks
